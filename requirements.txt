@@ -1,0 +1,9 @@
+# requirements.txt
+fastapi==0.115.12
+uvicorn==0.34.1
+SQLAlchemy==2.0.41
+psycopg2-binary==2.9.10
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.1
+requests==2.31.0
