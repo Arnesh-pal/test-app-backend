@@ -15,6 +15,7 @@ app = FastAPI()
 # that it's okay to accept requests from your React app.
 origins = [
     "http://localhost:3000",
+    "https://exam-app-frontend-chi.vercel.app/login"
 ]
 
 app.add_middleware(
